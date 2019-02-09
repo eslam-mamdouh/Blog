@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.post , .postDetails{ 
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin: 15px 3%;
+    border-radius: 5px;
+    height: 200px;
+    position: relative;
+    overflow-wrap: break-word;
+}
+.postDetails{
+    height:auto;
+    margin: 50px 10%;
+}
+.postDetails .content{
+    margin-top: 30px;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.category{
+    position: absolute;
+    top: 37px;
+    left: 10px;
+    color: #919090;
+}
+.post .btn{
+    position: absolute;
+    z-index: 100;
+    left: 43%;
+    bottom: -22px;
+    padding: 10px 15px;
+    border-radius:50%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.desc{
+    margin: 30px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.add_category{
+    margin: 50px 10%;
+}
+.table{
+    width: 80%;
+    margin: 0 auto;
+}
+.pagination{
+    margin-left: 10% !important;
+}
+.table a{
+    margin-right: 10px;
+}
+.table .actions{
+    width: 170px;
+}
+.dashContent{
+    margin: 0 auto;
+    padding: 100px 10px;
+    text-align: center
+}
+.dashContent .posts , .categories{
+    border: 1px solid #b9b9b9;
+    height: 100px;
+    margin-left: 10%;
+    padding: 0 !important;
+    text-decoration: none !important;
+}
+.fa-network-wired{
+
+    background: #46046d !important;
+}
+.dashContent i{
+    float: left;
+    background: #07368d;
+    height: 100%;
+    width: 40%;
+    color: #FFF;
+    font-size: 50px;
+    padding: 5% 5%;
+}
+.dashContent .count {
+    font-size: 35px;
+    font-weight: 800;
+}
+.error{
+    color: red;
+}
+
+table form {
+    display: inline;
+}
