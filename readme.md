@@ -16,17 +16,15 @@ Clone the repository
 ```bash
     git clone https://github.com/eslam-mamdouh/Blog.git
 ```
-    Switch to the repo folder
+Switch to the repo folder
 ```bash
     cd Blog
 ```
-    Install all the dependencies using composer
-
+Install all the dependencies using composer
 ```bash
     composer update
 ```
-    Generate a new application key
-
+Generate a new application key
 ```bash
     php artisan key:generate
 ```
