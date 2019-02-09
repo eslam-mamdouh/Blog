@@ -1,4 +1,4 @@
-# test
+# Blog
 Simple Blog system which will provide user interface to browse and
 explore blog posts. Also it will contains admin dashboard to add, edit, delete, and update
 posts and categories.
